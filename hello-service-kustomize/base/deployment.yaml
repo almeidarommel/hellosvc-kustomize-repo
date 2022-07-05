@@ -3,6 +3,8 @@ kind: DeploymentConfig
 metadata:
   labels:
     provider: jkube
+    app: hello-service
+    group: com.redhat.sample
   name: hello-service
 spec:
   replicas: 1
