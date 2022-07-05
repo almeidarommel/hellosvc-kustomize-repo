@@ -90,6 +90,6 @@ spec:
       - spring-boot
       from:
         kind: ImageStreamTag
-        name: hello-service:latest
+        name: hello-spring:latest
         namespace: hello-spring-dev
     type: ImageChange
