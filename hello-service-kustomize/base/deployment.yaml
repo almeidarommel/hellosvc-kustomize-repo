@@ -38,7 +38,7 @@ spec:
             fieldRef:
               apiVersion: v1
               fieldPath: metadata.namespace
-        image: hello-service:latest
+        image: <PATCH_ME>
         imagePullPolicy: IfNotPresent
         livenessProbe:
           failureThreshold: 3
@@ -90,6 +90,6 @@ spec:
       - spring-boot
       from:
         kind: ImageStreamTag
-        name: hello-service:dev-022-07-05-16-19-26
+        name: hello-service:latest
         namespace: hello-spring-dev
     type: ImageChange
