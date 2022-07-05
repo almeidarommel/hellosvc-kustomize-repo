@@ -87,5 +87,5 @@ spec:
       from:
         kind: ImageStreamTag
         name: hello-service:latest
-        namespace: teste
+        namespace: hello-spring-dev
     type: ImageChange
