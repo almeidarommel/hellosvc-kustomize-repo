@@ -26,6 +26,8 @@ spec:
   template:
     metadata:
       labels:
+        app: hello-service
+        group: com.redhat.sample
         provider: jkube
       name: hello-service
     spec:
