@@ -6,4 +6,4 @@ spec:
     spec:
       containers:
       - name: hello-service
-        image: image-registry.openshift-image-registry.svc:5000/hello-spring-dev/hello-service:prod-022-09-14-20-08-15
+        image: image-registry.openshift-image-registry.svc:5000/hello-spring-dev/hello-service:prod-022-09-14-20-12-00
